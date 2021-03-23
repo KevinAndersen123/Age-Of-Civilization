@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &155773019234699606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7814608368321390648}
+  - component: {fileID: 370024816888408023}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7814608368321390648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155773019234699606}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &370024816888408023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155773019234699606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f10301015ba17a4b8050436fa4d8329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sounds:
+  - m_name: Main_BG
+    m_clip: {fileID: 8300000, guid: 7d0d7192936e29747a8847a8a8342b59, type: 3}
+    m_volume: 0.2
+    m_volumeVariance: 0
+    m_pitch: 1
+    m_pitchVariance: 0
+    m_loop: 1
+    m_mixerGroup: {fileID: 24300002, guid: 6f20160a29861274abfc7d97dafc2526, type: 2}
+    m_source: {fileID: 0}
+  - m_name: War_Horn
+    m_clip: {fileID: 8300000, guid: e67807ec14237cb4da1762b73e1d783a, type: 3}
+    m_volume: 0.2
+    m_volumeVariance: 0
+    m_pitch: 1
+    m_pitchVariance: 0
+    m_loop: 0
+    m_mixerGroup: {fileID: 24300002, guid: d4f7784a8a9270e4b977b2c80ae6f3bd, type: 2}
+    m_source: {fileID: 0}
+  - m_name: Hover
+    m_clip: {fileID: 8300000, guid: 34c7212ff516b0e4580e9329bdba6c8b, type: 3}
+    m_volume: 0.5
+    m_volumeVariance: 0
+    m_pitch: 1
+    m_pitchVariance: 0
+    m_loop: 0
+    m_mixerGroup: {fileID: 24300002, guid: d4f7784a8a9270e4b977b2c80ae6f3bd, type: 2}
+    m_source: {fileID: 0}
+  - m_name: Select
+    m_clip: {fileID: 8300000, guid: e5587ddeb2b12df4e8b5218443f43e21, type: 3}
+    m_volume: 0.5
+    m_volumeVariance: 0
+    m_pitch: 1
+    m_pitchVariance: 0
+    m_loop: 0
+    m_mixerGroup: {fileID: 24300002, guid: d4f7784a8a9270e4b977b2c80ae6f3bd, type: 2}
+    m_source: {fileID: 0}
+  - m_name: Gameplay_BG
+    m_clip: {fileID: 8300000, guid: 4b16845af2436f74e93989624dd91446, type: 3}
+    m_volume: 0.5
+    m_volumeVariance: 0
+    m_pitch: 1
+    m_pitchVariance: 0
+    m_loop: 1
+    m_mixerGroup: {fileID: 24300002, guid: 6f20160a29861274abfc7d97dafc2526, type: 2}
+    m_source: {fileID: 0}
